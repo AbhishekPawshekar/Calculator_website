@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+          <table>
+                    <tr>
+                              <td colspan="3" style="background-color: white;"><h2 id="display_">0</h2></td>
+                              <td><button onclick="clear_input()" style="background-color:cadetblue ;color:white">AC</button></td>
+                    </tr>
+               
+                    <tr>
+                              <td ><button onclick="click_(9)">9</button></td>
+                              <td ><button onclick="click_(8)">8</button></td>
+                              <td ><button onclick="click_(7)">7</button></td>
+                              <td ><button onclick="click_('+')" id="op_but">+</button></td>
+                    </tr>
+                    
+                    <tr>
+                              <td ><button onclick="click_(6)">6</button></td>
+                              <td ><button onclick="click_(5)">5</button></td>
+                              <td ><button onclick="click_(4)">4</button></td>
+                              <td ><button onclick="click_('-')"id="op_but">-</button></td>
+                    </tr>
+                    
+                    <tr>
+                              <td ><button onclick="click_(3)">3</button></td>
+                              <td ><button onclick="click_(2)">2</button></td>
+                              <td ><button onclick="click_(1)">1</button></td>
+                              <td><button onclick="click_('%')"id="op_but">%</button></td>
+                    </tr>
+                    
+                    <tr>
+                              <td><button onclick="click_('.')">.</button></td>
+                              <td><button onclick="click_(0)">0</button></td>
+                              <td><button onclick="operation()">=</button></td>
+                              <td><button onclick="click_('*')"id="op_but">x</button></td>
+                    </tr>
+          </table>
+
+          <script src="./index.js"></script>
+</body>
+</html>
